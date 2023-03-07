@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: dejavu sans;
+  box-sizing: border-box;
+}
+body{
+  background-color: #121212;
+}
+#wrapper{
+  height: 250vh;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+header{
+  background-color: red;
+}
+span{
+  font-size: 25px;
+  font-weight: bold;
+  color: red;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 25px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+#logo{
+  cursor: pointer;
+  height: 100px;
+  width: 200px;
+  padding-bottom: 10px;
+}
+nav ul li{
+  display: inline-block;
+  list-style-type: none;
+  padding: 10px 25px; 
+}
+nav ul li a{
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: white;
+  font-size: 20px;
+}
+main{
+  margin-top: 10px;
+  font-size: 23px;
+}
+#j1{
+  float: left;
+  margin: 0px 40px 0px 20px;
+  width: 350px;
+  height: 450px;
+}
+#j2{
+  float: right;
+  margin: 20px 50px 0px 20px;
+  width: 400px;
+  height: 350px;
+  border-radius: 25px;
+  box-shadow: 20px 20px #121212;
+}
+#j3{
+  float: left;
+  margin: 0px 40px 0px 20px;
+  width: 400px;
+  height: 350px;
+  border-radius: 25px;
+  box-shadow: 20px 20px #121212;
+  
+}
+h2{
+  color: red;
+  text-align: center;
+  padding-bottom: 5px;
+}
+.business{
+  margin: 100px 20px 0 20px;
+}
+.fsc{
+  margin: 100px 20px 0 20px;
+}
+footer{
+  margin-top: 150px;
+  border-top: 3px solid orange;
+}
